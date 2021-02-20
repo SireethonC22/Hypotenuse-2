@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pythagorean Theorem : Solve for Hypotenuse"
+        android:paddingTop="20dp"
+        android:textSize="16dp"
+        android:gravity="center_horizontal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/triangle"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/Cresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C = ?"
+            android:textSize="18dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="40dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Avalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/leg_a"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:hint="Input : Leg A"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/Bvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/leg_b"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:hint="Input : Leg A"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSolve"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:text="SOLVE"
+        android:layout_marginTop="20dp"
+        ></Button>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sireethorn Chalormrattanangkun 621310250"
+        android:gravity="center_horizontal"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="30dp"
+        ></TextView>
+
+
+   </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
